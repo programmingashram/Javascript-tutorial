@@ -5,6 +5,10 @@
 ## How many types of function in javascript ?
 
 >   1.  Local Function,
+    Local function is also known as simple function, we can write this simple function like that - 
+    
+    **For Example :-**
+
   <code>
         function fnName(){
             console.log("Hello I am function...:)");
@@ -14,6 +18,9 @@
 
 
 >   2.  Arrow Function
+    Arrow function is short hand function, we can check and create arrow function injust single line - 
+    
+    **For Example :-**
 <code>
         x = ()=> console.log("Hello I am arrow function");
         x();
