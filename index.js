@@ -1,4 +1,5 @@
 // What is Function in javascript ?
+
 //    in simple language - function is bunch of js code. 
 //    in function we can able to fetch output when we call the function
 //    in function we can create a seprate block of js code.
@@ -7,6 +8,7 @@
 
 
 // How can we create function in js ?
+
     // We can create function by use of function keyword, and defiend the name of our function , just like
     // for Example - :
 
@@ -70,7 +72,7 @@
 
             // Now you can able to view output in your 
             
-// -----------------------------------------------------------------------------------------------------
+//  ________________________________________________________________________________
 
 //  What is function with arguments ?
     // function with arguments is just the game of passing the passes. let me give an example for that
@@ -114,7 +116,59 @@
 
     // That is an Function with arguments part is done.
 
-
+// ________________________________________________________________________________
     
+
+//  What is arrow function in js ?
+
+//    Arrow function provide us short hand way to create a function. that is a part of javascript ES6,
+
+
+    //   For Example - :
+
+        // Let's Create a arrow function 
+
+        // Step 1. Creating variable for arrow function.
+                    
+                let x;
+       
+        // Step 2. Now just creating an arrow function
+                    // We can create arrow function by using "=>()", (Beautiful arrow [=>] function [()]);
+                
+                // For Example
+                x = ()=>{
+                    // here you can write your console or return.
+                }
+
+                // 1. x is function name,
+                // 2. ()=> arrow function formate 
+
+        // Step 3. Then thats the time for call my arrow function.
+                // it's just similer like local function
+
+                x = ()=> {console.log("Hello I am arrow function...:)");}
+                x();
+                // am calling the function here
+                
+                // In that case if you have only one statemet/Value for output
+                // so you can able to remove curly breces ({}) after arrow (=>),
+
+                    // Just like that
+                    y = ()=> console.log("Single line statement...:)");
+                    y();
+                    // Here i have removed my curly breces and its giving me expected result.
+             
+                
+
+
+               
+
+                
+
+                    
+                    
+                    
+
+
 
         
