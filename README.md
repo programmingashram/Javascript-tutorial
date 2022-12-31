@@ -4,6 +4,20 @@
 
 ## How many types of function in javascript ?
 >   1.  Local Function,
->   2.  Global Function,
->   3.  Array Function      
+
+<code>
+    function fnName(){
+        console.log("Hello I am function...:)");
+    }
+    fnName();
+</code>
+
+>   2.  Arrow Function
+
+<code>
+    x = ()=> console.log("Hello I am arrow function");
+    x();
+</code>  
+
+>   3.  Clouser Function,   
 
