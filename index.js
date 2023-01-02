@@ -157,9 +157,27 @@
                     y = ()=> console.log("Single line statement...:)");
                     y();
                     // Here i have removed my curly breces and its giving me expected result.
+
+    
              
                 
+// Nested function in javascirpt ?
+// --- Nested function allows us to create a function in a function.
 
+//  For Example - 
+            // Let me create on function
+            function fn1(){
+                console.log("Hii I am function first... !!!");
+
+                // Let me create a nested function 
+                function fn2(){
+                    console.log("Hii I am function second... !!!")
+                }
+                // Let me call my nested or child function
+                fn2();
+            }
+            fn1();
+            // Let me call first function
 
                
 
